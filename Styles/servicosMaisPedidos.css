@@ -1,0 +1,100 @@
+section {
+  min-height: 50vh;
+  padding: 20px 2%;
+  display: block;
+
+  background-color: rgb(255, 255, 255);
+}
+.titulo-servicosMaisPedidos h1 {
+  font-size: 40pt;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: -30px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+  width: 250px;
+  height: 340px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 4px 8px 0px 0px rgb(0, 0, 0, 0.1);
+}
+.card img {
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  background-color: aqua;
+  border-radius: 10px 10px 0px 0px;
+}
+.card h2 {
+  margin-top: 140px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.Avaliations {
+  color: yellow;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.Avaliations span {
+  font-weight: 500;
+  color: #fff;
+}
+.card p {
+  font-weight: 500;
+}
+.btn_card_servicos_mais_pedidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: orange;
+  color: azure;
+  font-size: 16pt;
+  font-weight: 500;
+}
+.btn_card_servicos_mais_pedidos:hover {
+  background-color: blueviolet;
+}
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .titulo-servicosMaisPedidos {
+    font-size: 32pt;
+    font-weight: 600;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ache Aqui</title>
+    <link rel="stylesheet" href="Styles/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <link rel="stylesheet" href="Styles/header.css" />
+    <link rel="stylesheet" href="Styles/home.css" />
+    <link rel="stylesheet" href="Styles/servicosMaisPedidos.css" />
+    <link rel="stylesheet" href="Styles/feedbacks.css" />
+    <link rel="stylesheet" href="Styles/sobrenos.css" />
+    <link rel="stylesheet" href="Styles/carroussel.css" />
+    <link rel="stylesheet" href="Styles/rodape.css" />
+    <!-- Link Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FlatIcons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-bar">
+        <!-- Nav Logo -->
+        <h1 class="nav-logo">Ache Aqui</h1>
+        <!-- Nav List -->
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Página Inicial</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"> Pacotes</a>
+          </li>
+        </ul>
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <!-- Button Cadastro -->
+          <button class="btn_cadastro">Cadastro</button>
+
+          <!-- Button Login -->
+          <button class="btn_login">Login</button>
+        </div>
+
+        <div class="menu-mobile_icon">
+          <!-- Configurações -->
+          <i
+            class="fa-solid fa-bars"
+            id="nav-menu"
+            
+          ></i>
+        </div>
+        
+      </div>
+     
+    </header>
+    <!--  -->
+   
+    <!--  -->
+    <aside class="menu-mobile">
+      <div class="menu-opcoes-mobile">
+        <!-- <div class="ponta-configuracoes"></div> -->
+        <!-- ---------- -->
+        <div class="opcao-menu-mobile-back">
+          <i class="fa-solid fa-x" id="back-menu"></i>
+        </div>
+        <div class="opcao-menu-mobile">
+          <i class="fa-solid fa-circle-info"></i>
+          <a href="#">Ajuda</a>
+        </div>
+        <!-- ---------- -->
+        <div class="opcao-menu-mobile">
+          <i class="fa-solid fa-user-tie"></i>
+          <a href="#">Seja um profissional</a>
+        </div>
+        <!-- ---------- -->
+        <div class="opcao-menu-mobile">
+          <i class="fa-solid fa-circle-question"></i>
+          <a href="#">Como funciona?</a>
+        </div>
+        <!-- ---------- -->
+        <div class="opcao-menu-mobile">
+          <i class="fa-solid  fa-gear"></i>
+          <a href="#">Geral</a>
+        </div>
+        <!-- ---------- -->
+      </div>
+      
+    </aside>
+    <!-- OVERLAY -->
+    <div class="overlay-menu" id="overlay-menu"></div>
+    <!-- --------------------------------- -->
+    <div class="container">
+      <main class="home">
+        <div class="text-home">
+          <h3 class="titulo-home">
+            Só no Ache <span style="color: orange">Aqui</span>
+          </h3>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nulla
+            possimus ipsa excepturi sunt. Commodi libero, autem dolores ullam
+            minim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            laboriosam nam doloremque eius explicabo repudiandae laudantium
+            dolore at, quibusdam tempora. Ducimus odio fugiat officiis et
+            placeat inventore distinctio nam illum?
+          </p>
+
+          <div class="buttons-home">
+            <!-- Button Cadastro -->
+            <button class="btn_cadastro" id="btn-cadastroHOME">Cadastro</button>
+
+            <!-- Button Login -->
+            <button class="btn_login" id="btn-loginHOME">Login</button>
+          </div>
+        </div>
+
+        <img src="#" alt class="image-home" style="background-color: orange" />
+      </main>
+
+      <!-- Nav Serviços -->
+      <section class="NavServicos_Container">
+        <h1 id="TituloNavServicos"><span style="color: blue;">Encontre aqui</span>  <span style="color: rgb(105, 102, 97);"> o serviço que você procura!</span></h1>
+        <!-- ---------------------------------------------- -->
+        <div class="NavServicos_Content">
+          <input
+            type="text"
+            class="BARRA_PesquisarServico"
+            placeholder="Pesquisar Serviços..."
+          />
+
+          <button class="Btn-Pesquisar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <!-- Categorias computador -->
+        <!-- Dropdown Menu -->
+        <nav class="NavServicos_DROPDOWN_Content">
+          <button class="Nav_Btn_Left">
+            <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+          </button>
+
+          <ul>
+            <li class="Dropdown-LI">
+              <a href="#" class="Li_Link_MENU">Aulas</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Inglês</a>
+                <a href="#" class="Sub_List_Link">Matemática</a>
+                <a href="#" class="Sub_List_Link">Português</a>
+                <a href="#" class="Sub_List_Link">Francês</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Saúde</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Dentista</a>
+                <a href="#" class="Sub_List_Link">Pediatra</a>
+                <a href="#" class="Sub_List_Link">Terapeuta</a>
+                <a href="#" class="Sub_List_Link">Psicólogo</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Eventos</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Djs</a>
+                <a href="#" class="Sub_List_Link">Cantor</a>
+                <a href="#" class="Sub_List_Link">Animação de festa</a>
+                <a href="#" class="Sub_List_Link">Confeiteira</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Serviços Domésticos</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Faxineira</a>
+                <a href="#" class="Sub_List_Link">Babá</a>
+                <a href="#" class="Sub_List_Link">Diarista</a>
+                <a href="#" class="Sub_List_Link">Motorista</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Automóvel</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Mecânico</a>
+                <a href="#" class="Sub_List_Link">Funilaria</a>
+                <a href="#" class="Sub_List_Link">Pintura</a>
+                <a href="#" class="Sub_List_Link">Borracharia</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Consultoria</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Advogado</a>
+                <a href="#" class="Sub_List_Link">Guia Turismo</a>
+                <a href="#" class="Sub_List_Link">Despachante</a>
+                <a href="#" class="Sub_List_Link">Tradutor</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Saude</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Nadar 0</a>
+                <a href="#" class="Sub_List_Link">Nadar 1</a>
+                <a href="#" class="Sub_List_Link">Nadar 2</a>
+                <a href="#" class="Sub_List_Link">Nadar 3</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Saude</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Nadar 0</a>
+                <a href="#" class="Sub_List_Link">Nadar 1</a>
+                <a href="#" class="Sub_List_Link">Nadar 2</a>
+                <a href="#" class="Sub_List_Link">Nadar 3</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+
+            <!-- -------------------- -->
+            <li class="Dropdown-LI">
+              <a href="#">Saude</a>
+              <!-- Sub LIST -->
+              <div class="Dropdown-Menu">
+                <a href="#" class="Sub_List_Link">Nadar 0</a>
+                <a href="#" class="Sub_List_Link">Nadar 1</a>
+                <a href="#" class="Sub_List_Link">Nadar 2</a>
+                <a href="#" class="Sub_List_Link">Nadar 3</a>
+              </div>
+              <!--  -->
+            </li>
+            <!-- -------------------- -->
+          </ul>
+          <button class="Nav_Btn_Right">
+            <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
+          </button>
+        </nav>
+        <!-- ----------------------------------------------------------- -->
+        <!-- CATEGORIAS MOBILE -->
+        <div class="categorias_mobile_content">
+          <h1>Categorias</h1>
+          <div class="categoria_mobile">
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-heart"></i>
+              <h5>Saúde</h5>
+            </div>
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-handshake" style="color: black"></i>
+              <h5>Consultoria</h5>
+            </div>
+          </div>
+          <!-- ------------------------------------ -->
+          <div class="categoria_mobile">
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-graduation-cap" style="color: yellow"></i>
+              <h5>Aula</h5>
+            </div>
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-car" style="color: darkorange"></i>
+              <h5>Automóvel</h5>
+            </div>
+          </div>
+          <!-- -------------------------------------- -->
+          <div class="categoria_mobile">
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-wine-glass" style="color: blueviolet"></i>
+              <h5>Eventos</h5>
+            </div>
+            <div class="card_categoria_mobile">
+              <i class="fa-solid fa-broom" style="color: green"></i>
+              <h5>Domésticos</h5>
+            </div>
+          </div>
+        </div>
+        <!-- ------------------------ -->
+      </section>
+
+      <section class="Servicos_mais_pedidos">
+        <h1 class="titulo-servicosMaisPedidos">Profissionais Destaques</h1>
+        <div class="cards">
+          <div class="card">
+            <img src="#" alt class="img_card" />
+            <h2>Pedreiro</h2>
+
+            <span class="Avaliations">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>+(500)</span>
+            </span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing el.</p>
+            <button class="btn_card_servicos_mais_pedidos">Saiba Mais</button>
+          </div>
+
+          <div class="card">
+            <img src="#" alt class="img_card" />
+            <h2>Pedreiro</h2>
+
+            <span class="Avaliations">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>+(500)</span>
+            </span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing el.</p>
+            <button class="btn_card_servicos_mais_pedidos">Saiba Mais</button>
+          </div>
+
+          <div class="card">
+            <img src="#" alt class="img_card" />
+            <h2>Pedreiro</h2>
+
+            <span class="Avaliations">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>+(500)</span>
+            </span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing el.</p>
+            <button class="btn_card_servicos_mais_pedidos">Saiba Mais</button>
+          </div>
+
+          <div class="card">
+            <img src="#" alt class="img_card" />
+            <h2>Pedreiro</h2>
+
+            <span class="Avaliations">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <span>+(500)</span>
+            </span>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing el.</p>
+            <button class="btn_card_servicos_mais_pedidos">Saiba Mais</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="feed">
+        <h1>Feedbacks</h1>
+        <div class="feedbacks">
+          <div class="feed01">
+            <div class="feedback">
+              <img src="#" alt class="fotoPerfil_Feedback" />
+              <div class="avaliacao">
+                <h3>Roberta</h3>
+                <span class="stars">
+                  <span>+4.7</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus suscipit quos fuga volupt
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="#" alt class="fotoPerfil_Feedback" />
+              <div class="avaliacao">
+                <h3>Roberta</h3>
+                <span class="stars">
+                  <span>+4.7</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus suscipit quos fuga volupt
+                </p>
+              </div>
+            </div>
+            <!-- feed01 -->
+          </div>
+
+          <div class="feed02">
+            <div class="feedback">
+              <img src="#" alt class="fotoPerfil_Feedback" />
+              <div class="avaliacao">
+                <h3>Roberta</h3>
+                <span class="stars">
+                  <span>+4.7</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus suscipit quos fuga volupt
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="#" alt class="fotoPerfil_Feedback" />
+              <div class="avaliacao">
+                <h3>Roberta</h3>
+                <span class="stars">
+                  <span>+4.7</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Accusamus suscipit quos fuga volupt
+                </p>
+              </div>
+            </div>
+            <!-- feed02 -->
+          </div>
+          <div class="hidden">
+            <div class="feed03">
+              <div class="feedback">
+                <img src="#" alt class="fotoPerfil_Feedback" />
+                <div class="avaliacao">
+                  <h3>Roberta</h3>
+                  <span class="stars">
+                    <span>+4.7</span>
+
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Accusamus suscipit quos fuga volupt
+                  </p>
+                </div>
+              </div>
+
+              <div class="feedback">
+                <img src="#" alt class="fotoPerfil_Feedback" />
+                <div class="avaliacao">
+                  <h3>Roberta</h3>
+                  <span class="stars">
+                    <span>+4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Accusamus suscipit quos fuga volupt
+                  </p>
+                </div>
+              </div>
+              <!-- feed03 -->
+            </div>
+          </div>
+          <span class="btn-VerMais" onclick="FedbackShow()">Ver Mais...</span>
+        </div>
+      </section>
+
+      <section class="sobreNos">
+        <div class="text-sobreNos">
+          <h1>Sobre Nós</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            nulla magni maxime porro pariatur neque ullam deserunt nisi, dolorem
+            veritatis quod, at ducimus ipsa, illum itaque a commodi. Magni,
+            fuga?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae
+            cum corporis, incidunt dignissimos at numquam. Autem repudiandae
+            blanditiis voluptate doloremque, maiores sit veniam optio at
+            dignissimos pariatur repellat quis quidem.
+          </p>
+
+          <button class="btn_sobreNos">Saiba Mais</button>
+        </div>
+
+        <img src="#" alt />
+      </section>
+
+      <!-- carroussel -->
+
+      <section class="CARROUSSEL_CONTAINER">
+        <!-- Botões -->
+        <div id="voltar" class="btn_Carroussel">
+          <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+        </div>
+        <!-- ---------------------------------- -->
+        <div id="avancar" class="btn_Carroussel">
+          <i class="fa-solid fa-chevron-up fa-rotate-90"></i>
+        </div>
+        <!-- ------------------------------------------------------------- -->
+
+        <div class="slide">
+          <div class="item_slide">
+            <!-- Images -->
+            <div id="atual" class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço01
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço02
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço03
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço02
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço0
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço02
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço03
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <div class="images">
+              <!-- CARD -->
+              <div class="card_carroussel">
+                <div class="categoriaCarroussel">
+                  <i
+                    id="IconeCategoriaCarroussel"
+                    class="fa-solid fa-heart"
+                  ></i>
+                  <h6>Saúde</h6>
+                </div>
+
+                <h5 class="Card_Titulo_NomeServico_Carroussel">
+                  Nome Serviço03
+                </h5>
+
+                <div class="Avaliation_Card_Carroussel">
+                  <p>Avaliação do cliente</p>
+
+                  <span class="Avaliation-star_Card_Carroussel">
+                    <span>4.7</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </div>
+
+                <span class="Card_Carroussel_Data">Data</span>
+              </div>
+              <!-- --------------------- -->
+            </div>
+            <!-- -------------- -->
+            <!-- fim images----------------------------- -->
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <!-- Position -->
+
+          <!-- fim position ---------------------------------------- -->
+          <div class="position"></div>
+        </div>
+      </section>
+
+      <section class="Oque_E_AcheAqui_container">
+        <h3>O que é o AcheAqui?</h3>
+
+        <p class="textoOqeAcheAqui">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+          ullam omnis ea culpa doloribus eum placeat quas perferendis,
+          obcaecati, quo reprehenderit? Illum autem commodi, delectus blanditiis
+          placeat qui quaerat deserunt!
+        </p>
+
+        <div class="Cards_oq_AcheAqui">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="SGVS/terra-americas.svg"
+                  alt
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Profissionais</h4>
+              </div>
+
+              <div class="flip-card-back">
+                <p>Nossos profissionais ao redor do mundo!</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------------------- -->
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="SGVS/money.svg"
+                  alt
+                  style="width: 80px; height: 80px"
+                />
+
+                <h4>Faça já seu pedido</h4>
+              </div>
+
+              <div class="flip-card-back">
+                <p>De maneira facil e de graça, a qualquer momento</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------------------- -->
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  src="SGVS/revisao-de-comentarios.svg"
+                  alt
+                  style="width: 80px; height: 80px"
+                />
+
+                <h4>Plataforma</h4>
+              </div>
+
+              <div class="flip-card-back">
+                <p>A plataforma mais bem avaliada do mundo!</p>
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------------------------------------- -->
+        </div>
+      </section>
+
+      <section class="Nossos_Valores">
+        <h1>Nossos Valores</h1>
+        <!-- ------------------------------------------- -->
+        <div class="Cards_NossosValores">
+          <div class="Card_NossosValores">
+            <img
+              src="SGVS/verificacao-de-escudo.svg"
+              alt
+              style="width: 80px; height: 80px"
+            />
+
+            <h4>Segurança</h4>
+
+            <p>A segurança dos nossos usuarios é a nossa prioridade!</p>
+          </div>
+          <!-- --------------------------------------- -->
+          <div class="Card_NossosValores">
+            <img
+              src="SGVS/distintivo.svg"
+              alt
+              style="width: 80px; height: 80px"
+            />
+            <h4>Qualidade</h4>
+
+            <p>A qualidade do serviço é o nosso objetivo</p>
+          </div>
+          <!-- -------------------------------------------- -->
+          <div class="Card_NossosValores">
+            <img
+              src="SGVS/relogio-calendario.svg"
+              alt
+              style="width: 80px; height: 80px"
+            />
+
+            <h4>Agilidade</h4>
+
+            <p>Serviços com alta eficiencia e velocidade dadsada</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Faca_Parte_Do_Nosso_Time_CONTAINER">
+        <div class="FacaParteDoNossoTime_CONTENT">
+          <h1>
+            Faça parte do nosso time <i class="fa-solid fa-handshake"></i>
+          </h1>
+
+          <p>Preencha os campos a seguir:</p>
+
+          <form class="CadastroFormNossoTime">
+            <span>
+              <label for="email">E-mail</label>
+              <input
+                type="text"
+                class="Email_NossoTime"
+                id="email"
+                placeholder="Email@gmail.com"
+              />
+            </span>
+
+            <span>
+              <label for="celular">Celular</label>
+              <input
+                type="text"
+                class="Celular_NossoTime"
+                id="celular"
+                placeholder="Ex:11 99999-9999"
+              />
+            </span>
+
+            <button class="Btn-NossoTime">Cadastrar-Se</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <!-- RodaPé---->
+    <footer>
+      <div class="Footer_Content">
+        <div class="footer_Logo_RedeSociais">
+          <h3 class="Logo">Ache Aqui</h3>
+          <div class="Social_Media_Footer">
+            <a href="#" class="footer_link" id="whatsapp"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+
+            <a href="#" class="footer_link" id="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+
+            <a href="#" class="footer_link" id="facebook"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="parcerias">
+          <h4>Parcerias</h4>
+          <ul>
+            <li><a href="#">Coca-Cola</a></li>
+            <li><a href="#">Coca-Cola</a></li>
+            <li><a href="#">Coca-Cola</a></li>
+          </ul>
+        </div>
+
+        <div class="suport">
+          <h4>Suporte</h4>
+          <ul class="suport">
+            <li><a href="#">Politicas De Privacidade</a></li>
+            <li><a href="#">Termos de Uso</a></li>
+            <li><a href="#">SAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="Dowloads">
+          <h3>Dowloads</h3>
+          <div class="DowloadIMGS">
+            <a href="#"
+              ><img
+                src="#"
+                alt
+                style="width: 150px; height: 40px; background-color: brown"
+            /></a>
+            <a href="#"
+              ><img
+                src="#"
+                alt
+                style="
+                  width: 150px;
+                  height: 40px;
+                  background-color: rgb(0, 231, 46);
+                "
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_CopyRight">
+        <h6>Copy Right@</h6>
+      </div>
+    </footer>
+  </body>
+  <script src="js/bootstrap.js"></script>
+  <script src="main.js"></script>
+</html>

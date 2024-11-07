@@ -1,0 +1,538 @@
+/* Colors */
+:root{
+  --color-01--:#0d3253;
+  --color-02--:#00000000;
+  --color-03--:#ff9532;
+  --color-04--:#ffffff;
+  --color-05--:#1668b1;
+  --color-06--:blue;
+  --color-07--:orange;
+  --color-08--:rgb(105, 102, 97);
+}
+/* --------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin-top: 80px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+  padding-bottom: 100px;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+/* .open{
+    display: block;
+} */
+/* SEÇÃO-- O que é ACHEAQUI */
+.Oque_E_AcheAqui_container {
+  min-height: 60vh;
+  background-color: var(--color-04--);
+}
+
+.Oque_E_AcheAqui_container h3 {
+  text-align: start;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.Oque_E_AcheAqui_container .textoOqeAcheAqui {
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Cards_oq_AcheAqui {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.flip-card {
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  perspective: 1000px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotatey(180deg);
+}
+
+.flip-card .flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.flip-card-back,
+.flip-card-front {
+  cursor: pointer;
+  backface-visibility: hidden;
+}
+
+.flip-card-inner {
+  position: relative;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    330deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(58, 120, 180, 1) 9%,
+    rgba(179, 117, 86, 1) 69%,
+    rgba(253, 115, 29, 1) 86%
+  );
+
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  text-align: center;
+  gap: 30px;
+  padding: 10px 20px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.flip-card-front h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.flip-card-back p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.flip-card-back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252, 176, 69);
+  background: linear-gradient(
+    330deg,
+    rgba(252, 176, 69, 1) 0%,
+    rgba(58, 120, 180, 1) 9%,
+    rgba(179, 117, 86, 1) 69%,
+    rgba(253, 115, 29, 1) 86%
+  );
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  text-align: center;
+  gap: 30px;
+  padding: 10px 20px;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width:768px) {
+  .Cards_oq_AcheAqui {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .Oque_E_AcheAqui_container h3{
+    font-size: 27pt !important;
+    display: flex;
+  }
+}
+
+/* SEÇÃO-- O que é ACHEAQUI */
+/* SEÇÃO-- Nossos valores */
+.Nossos_Valores {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Nossos_Valores h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+.Cards_NossosValores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.Card_NossosValores {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.Card_NossosValores p {
+  margin-top: -20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+  .Cards_NossosValores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+/* FIM -> SEÇÃO-- Nossos valores */
+/* SEÇÃO-- Nosso Time */
+.Faca_Parte_Do_Nosso_Time_CONTAINER {
+  margin-top: 100px;
+  padding: 12px 2%;
+  background-color: rgba(24, 0, 243, 0.24);
+  display: flex;
+  align-items: center;
+}
+
+.FacaParteDoNossoTime_CONTENT {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.CadastroFormNossoTime {
+  width: 100%;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.FacaParteDoNossoTime_CONTENT h1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+.FacaParteDoNossoTime_CONTENT h1 i {
+  margin-top: 15px;
+  color: blue;
+  font-size: 30px;
+}
+
+.FacaParteDoNossoTime_CONTENT p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(110, 110, 110);
+}
+
+.CadastroFormNossoTime span {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.CadastroFormNossoTime label {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.CadastroFormNossoTime input {
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 25px;
+  color: rgb(54, 54, 54);
+}
+
+.CadastroFormNossoTime input::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+}
+
+.Btn-NossoTime {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: var(--color-05--);
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.Btn-NossoTime:hover {
+  background-color: var(--color-01--);
+}
+/* RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+  .Faca_Parte_Do_Nosso_Time_CONTAINER {
+    min-height: 80vh;
+    padding: 10px 5%;
+    border-radius: 20px;
+  }
+  .CadastroFormNossoTime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .CadastroFormNossoTime input {
+    width: 100%;
+  }
+}
+/* FIM ->SEÇÃO-- Nosso Time */
+/*SEÇÃO Pesquisar servicos e categorias */
+.NavServicos_Container {
+  background-color: rgb(255, 255, 255);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 30px;
+  padding: 20px 2%;
+}
+
+.NavServicos_Container h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.NavServicos_Container h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.NavServicos_Content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.BARRA_PesquisarServico {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px 0px 0px 10px;
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: 10px 2px 10px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  outline: none;
+}
+
+.BARRA_PesquisarServico::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Btn-Pesquisar {
+  width: 90px;
+  height: 50px;
+  background-color: var(--color-03--);
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  color: #ffffff;
+  box-shadow: 6px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.Btn-Pesquisar:hover {
+  background-color: var(--color-01--);
+}
+
+/* Menu DROPDOWN */
+.NavServicos_DROPDOWN_Content {
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+}
+
+.Nav_Btn_Left {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: blue;
+  font-size: 30px;
+}
+
+.Nav_Btn_Right {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: blue;
+  font-size: 30px;
+}
+
+.NavServicos_DROPDOWN_Content ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -30px;
+  margin: 0;
+  padding: 0;
+}
+
+.NavServicos_DROPDOWN_Content li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  color: rgb(163, 163, 163);
+  font-size: 20px;
+  font-weight: 500;
+  height: 100%;
+}
+
+.NavServicos_DROPDOWN_Content li a:hover {
+  background-color: blue;
+}
+
+.NavServicos_DROPDOWN_Content .Dropdown-Menu a {
+  display: block;
+  padding: 10px;
+  color: rgb(183, 216, 255);
+  text-align: center;
+}
+
+.Dropdown-LI {
+  display: flex;
+  justify-content: center;
+}
+
+.Dropdown-Menu {
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 50px;
+  box-shadow: 4px 8px 0px 0px rgba(0, 0, 0, 0.1);
+  display: none;
+  transition: 0.4s ease;
+  z-index: 3;
+}
+
+.Dropdown-LI:hover .Dropdown-Menu {
+  display: block;
+}
+
+.Sub_List_Link {
+  border: 1px solid rgb(161, 161, 161);
+  width: 100%;
+  height: 40px;
+}
+.categorias_mobile_content {
+  display: none;
+}
+/* RESPONSIVA */
+@media screen and (max-width: 768px) {
+  .NavServicos_Container{
+    margin-top: -50px;
+  }
+  #TituloNavServicos{
+    text-align: center;
+    margin-bottom: 80px;
+  }
+  .NavServicos_DROPDOWN_Content {
+    display: none;
+  }
+  .categorias_mobile_content {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    padding: 20px 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .categorias_mobile_content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--color-03--);
+    border-radius: 60px 0px 60px 0px;
+    width: 100%;
+    height: 50;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+  }
+  .categoria_mobile {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .card_categoria_mobile {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 4px 4px 15px 3px rgba(0, 0, 0, 0.1);
+  }
+  .card_categoria_mobile:hover {
+    scale: 1.1;
+    background-color: rgb(8, 32, 32);
+  }
+  .card_categoria_mobile h5 {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(96, 104, 97);
+  }
+  .card_categoria_mobile i {
+    font-size: 40px;
+    color: red;
+  }
+}
+/*FIM -> SEÇÃO Pesquisar servicos e categorias */

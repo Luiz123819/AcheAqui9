@@ -1,0 +1,71 @@
+.sobreNos {
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  padding: 12px 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.text-sobreNos {
+  width: 60%;
+  height: 330px;
+  text-align: justify;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+.text-sobreNos h1 {
+  font-size: 30pt;
+  font-weight: 600;
+}
+.text-sobreNos p {
+  font-size: 13pt;
+  font-weight: 500;
+}
+.btn_sobreNos {
+  border: none;
+  background-color: orange;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  font-size: 18pt;
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.btn_sobreNos:hover {
+  background-color: aquamarine;
+}
+.sobreNos img {
+  width: 400px;
+  height: 330px;
+  background-color: blue;
+}
+/* Responsividade */
+@media screen and (max-width:768px) {
+  .sobreNos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+  .text-sobreNos {
+    width: 100%;
+  }
+  .sobreNos img {
+    display: none;
+  }
+  .btn_sobreNos {
+    height: 50px !important;
+    margin-bottom: 100px;
+  }
+}

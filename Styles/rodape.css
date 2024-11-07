@@ -1,0 +1,133 @@
+footer {
+  width: 100%;
+  height: auto;
+  background-color: var(--color-03--);
+}
+.Footer_Content {
+  padding: 25px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Social_Media_Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2;
+}
+.Logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer_link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  color: rgb(235, 235, 235);
+  font-size: 20pt;
+}
+
+.footer_link:not(:last-child) {
+  margin-right: 10px;
+}
+.footer_link:hover {
+  color: rgb(235, 235, 235);
+}
+#whatsapp {
+  background-color: #25d366;
+}
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992);
+}
+#facebook {
+  background-color: #4267b3;
+}
+.Social_Media_Footer .footer_link:hover {
+  opacity: 0.7;
+}
+.parcerias {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-01--);
+}
+.parcerias h4 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.parcerias ul {
+  list-style: none;
+  margin-left: -30px;
+}
+.parcerias ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-04--);
+}
+.parcerias ul a:hover {
+  color: var(--color-06--);
+}
+
+.suport h4 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: var(--color-01--);
+}
+.suport ul {
+  list-style: none;
+  margin-left: -30px;
+}
+.suport ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-04--);
+}
+.suport ul a:hover {
+  color: blueviolet;
+}
+.Dowloads {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Dowloads h4 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+.DowloadIMGS {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer_CopyRight {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  .Footer_Content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 10%;
+  }
+  .DowloadIMGS {
+    display: flex;
+    flex-direction: row;
+  }
+}

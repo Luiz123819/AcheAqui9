@@ -1,0 +1,89 @@
+main {
+  background-color: rgb(255, 255, 255);
+  min-height: calc(100vh - 80px);
+  padding: 50px 2%;
+}
+.home {
+  display: flex;
+  justify-content: space-between;
+  z-index: 1 !important;
+}
+.text-home {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 2%;
+  text-align: justify;
+}
+.home .btn_cadastro{
+  background-color: orange;
+}
+.home .btn_cadastro:hover{
+  scale: 1.1;
+}
+.home .btn_login{
+  background-color: blue;
+}
+.home .btn_login:hover{
+  scale: 1.1;
+}
+.buttons-home {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 50px;
+
+}
+.titulo-home {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.text-home p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.image-home {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+.home button {
+  height: 50px;
+  box-shadow: 4px 8px 0px 0px rgba(0, 0, 0, 0.1);
+}
+/* Responsividade */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 0;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1 !important;
+    margin-bottom: -50px;
+  }
+  
+  .text-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .image-home {
+    display: none;
+  }
+  .buttons-home {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+  .text-home .btn_cadastro {
+    width: 150px;
+  }
+  .text-home .btn_login {
+    width: 150px;
+  }
+}
